@@ -14,3 +14,6 @@ The 2nd part
 - [] We need to add a product overview to the product.html page
 - [] We need to add a feedback form
 - [] We need to add a section with other comments
+
+The 3rd part
+- [] get back the get params we put to URL
