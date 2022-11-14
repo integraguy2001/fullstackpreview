@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    Test
+    <!--  Create a big card with product -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="card w-75 m-auto pt-3">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                        dy=".3em">Product</text>
+                </svg>
+                <div class="card-body">
+                    <p class="card-text">Here we may have bigger description of a product. Here we may have bigger
+                        description of a product. Here we may have bigger description of a product. Here we may have
+                        bigger description of a product.</p>
+                </div>
+            </div>
+        </div>
+        <!--  Add a feedback form -->
+
+        <div class="row">
+            <div class="w-75 m-auto pt-3">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe">
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Your comment</label>
+                    <textarea class="form-control" id="comment" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary">Save comment</button>
+            </div>
+        </div>
+
+        <!-- Add a section where we will see comments -->
+
+        <div class="row">
+            <div class="w-75 m-auto pt-3">
+                <h3>Comments:</h3>
+                <div class="card">
+                    <div class="card-body">
+                        John Doe: This is an amazing product
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 </body>
 </html>
