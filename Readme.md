@@ -17,3 +17,16 @@ The 2nd part
 
 The 3rd part
 - [] get back the get params we put to URL
+
+
+BE
+
+[] Initialize project. That will add package.json
+[] Add express npm module
+[] Create the express app
+[] Start listening to port 8081, so the endpoint will be http://localhost:8081
+[] Create a script in package.json to run the server
+[] Create a base route to see if all works
+[] Create a new endpoint,called "comments" and see if it works in the browse
+[] Make a fetch request from our FE to get comments
+[] Use cors to fix CORS
